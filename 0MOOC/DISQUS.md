@@ -17,7 +17,10 @@
 
 ## 安装
 >Step 1 注册diaqus
->
+
+登陆[DISQUS](https://disqus.com/)注册。
+
+不光注册一个账户，还需要**注册自己的site**。
 >
 >
 >
