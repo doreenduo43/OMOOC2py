@@ -1,8 +1,9 @@
+
 {
-    "plugins": [
-        "disqus"
-    ],
+    "plugins": ["disqus"],
     "pluginsConfig": {
-        "shortName": "doreenduo"
-    }
+        "disqus": {
+            "shortName": "doreenduo"
+        }
+    }  
 }
