@@ -1,8 +1,12 @@
-{
-"plugins": ["disqus"],
-"pluginsConfig": {
-    "disqus": {
-        "shortName": "omooc2py"
+{"title": "Hello! Python!ーーDoreen's notebook",
+    "version": "15.9.18,2020",
+    "description": " ",
+    "author": "doreenduo43<doreenduo@gmail.com>",
+
+    "plugins": [
+        "disqus"
+    ],
+    "pluginsConfig": {
+        "shortName": "doreenduo43"
     }
-}  
 }
