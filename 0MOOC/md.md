@@ -10,7 +10,7 @@
 
 ## 使用
 
-> [日语] Markdown記法 http://www.markdown.jp/syntax/#section-2
+> [日语] Markdown記法 http://www.markdown.jp/syntax/
 
  这个日文链接里面的写法给出的是最基础的几种，简单易懂。马上就能上手。除了斜体的记法（用星号*括出）因为日文假名本身的原因不怎么看得出来。其他都很好懂。
  
