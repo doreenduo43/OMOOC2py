@@ -5,7 +5,7 @@
    * [DISQUS评论插件](0MOOC/DISQUS.md)
    * [Markdown 私人教程](0MOOC/md.md)
 * [基础旋进](1sTry/README.md)
-   * 1wnote.md
+   * [1wnote.md](1sTry/1wnote.md)
 * [迭代作品](2nDev/README.md)
 * [人生首秀](3rDemo/README.md)
 * [代码 (_src)](_src/README.md)
