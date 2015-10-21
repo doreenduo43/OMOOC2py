@@ -14,17 +14,20 @@ def mydiarybook():
 	readdiary.close()
 
 	writediary = open('diarybook.txt','a')
-	import datetime
-	todaydate = datetime.date.today()
 
-	writediary.write(str(todaydate)+"\n")
-	
-	print "请告诉我你的今天. (请直接输入内容,输入q结束本次记录.)"
+	print"记录今天的点滴? (y/n)"
+	if raw_input()=="y":
+		import datetime
+		todaydate = datetime.date.today()
+		writediary.write(str(todaydate)+"\n")
 
-	mydiary=raw_input()
-	while mydiary != "q":
-		writediary.write(mydiary+"\n")
+		print "请直接输入内容,输入q结束本次记录."
+
 		mydiary=raw_input()
+
+		while mydiary != "q":
+			writediary.write(mydiary+"\n")
+			mydiary=raw_input()
 
 	writediary.close()
 
