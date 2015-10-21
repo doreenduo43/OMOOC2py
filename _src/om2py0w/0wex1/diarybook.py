@@ -2,34 +2,32 @@
 
 def mydiarybook():
 
-	f = file('diarybook.txt', 'w')	
+	readdiary = open('diarybook.txt')	
+
 	print "欢迎来记录你的点滴. 是否需要显示以往日记.(y/n)"
 
+	prediary=raw_input()
+
+	if prediary=="y":
+		print readdiary.read()
+
+	readdiary.close()
+
+	writediary = open('diarybook.txt','a')
 	import datetime
-	today = datetime.date.today()
+	todaydate = datetime.date.today()
 
-	if raw_input()=="y":
-		for row in f:
-			print row
+	writediary.write(str(todaydate)+"\n")
+	
+	print "请告诉我你的今天. (请直接输入内容,输入q结束本次记录.)"
 
-	else:
-		if today in f= True:
-			f.write(today)
-			while raw_input() != "y":
-				f.write(raw_input)
-				print "是否结束今天的记录? 结束请输入y, 继续记录请直接输入."
+	mydiary=raw_input()
+	while mydiary != "q":
+		writediary.write(mydiary+"\n")
+		mydiary=raw_input()
 
-		print "请告诉我你的今天. (请直接输入内容,按回车键结束一次输入. )"
-		todaydiary=raw_input()
+	writediary.close()
 
-		while todaydiary != "y":
-			f.write(todaydiary)
-			print "是否结束今天的记录? 结束请输入y, 继续记录请直接输入."
-
-
-f.close()
-
-print “再见 :)”
+	print "再见 :)"
 
 mydiarybook()
-
