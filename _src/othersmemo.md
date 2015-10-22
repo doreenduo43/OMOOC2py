@@ -62,28 +62,26 @@ NameError: name 'false' is not defined
      ```
       
      - 有序列 a=["a","g","t"]，执行 print a，则返回如下
-       
+     ```
+     ["a", "g", "t"] => nil 
+     ```
      
-     ```
-    ["a", "g", "t"] => nil 
-     ```
-
-     - 执行puts "Jan\nFeb\nMar"，则返回如下（puts会在末尾默认加上换行符），忘记n则会出现跟print忘记n一样的报错
+     - 执行puts"Jan\nFeb\nMar"，则返回如下（puts会在末尾默认加上换行符），忘记n则会出现跟print忘记n一样的报错
      
-     ```
+      ```
      Jan
      Feb
      Mar
      => nil  
      ```
+     
       - 有序列 a=["a","g","t"]，执行 puts a，则返回如下
        
-     
-     ```
-    a
-    g
-    t
-    => nil
+      ```
+     a
+     g
+     t
+     => nil
      ```
  - 转义序列・エスケープシーケンス (escape sequence)
     + [wikipedia](https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%97%E3%82%B7%E3%83%BC%E3%82%B1%E3%83%B3%E3%82%B9)
