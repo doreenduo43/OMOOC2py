@@ -1,8 +1,8 @@
 # [Learn Python the Hard Way](http://learnpythonthehardway.org/book/intro.html)笔记
 
-- 25*3%4
+- 25＊3%4
  
-  代表25* 3% * 4，结果为3.
+  代表25＊3%＊4，结果为3.
   
 - 文字与数字的连接
 
