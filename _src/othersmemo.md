@@ -86,7 +86,16 @@ NameError: name 'false' is not defined
  - 转义序列・エスケープシーケンス (escape sequence)
     + [wikipedia](https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%97%E3%82%B7%E3%83%BC%E3%82%B1%E3%83%B3%E3%82%B9)
     + [THW列表](http://learnpythonthehardway.org/book/ex10.html)
+   
+ - 格式与缩进
+ 
+    + ruby用的是与开头呼应的**end**来表示一段一段的代码。比如写一个如果a等于1，则b等于1。可写为如下：
     
+      ```
+      if a=1
+         b=1
+      end 
+      ```
 
      
     
