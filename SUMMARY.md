@@ -6,6 +6,7 @@
    * [Markdown 私人教程](0MOOC/md.md)
 * [基础旋进](1sTry/README.md)
    * [1w笔记](1sTry/1wnote.md)
+   * [2w笔记](1sTry/2wnote.md)
 * [迭代作品](2nDev/README.md)
 * [人生首秀](3rDemo/README.md)
 * [代码 (_src)](_src/README.md)
